@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOTOCMC</title>
+    <!-- !CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- !AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <p class="gizle">sepet</p>
+    <section id="header">
+
+        <a href="#"><img src="./img/logo3.png" class="logo" alt=""> </a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="alisveris.html">Alışveriş</a></li>
+                <li><a  href="blog.html">Blog</a></li>
+                <li><a   href="hakkimizda.html">Hakkımızda</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+                <a  class="active"  href="sepet.html"> <li  id="lg-sepet"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a  href="#" id="kapat"><i class="fa fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile"> 
+            <a  href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+
+    </section>
+
+    <section id="alisveris-header" class="hakkimizda-header">
+        <h2>#İletişimeGeç</h2>
+        <p>İstek ve Önerilerinize İhtiyacımız Var!</p>
+    </section>
+    
+     <section id="sepet" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>SİL</td>
+                    <td>Fotoğraf</td>
+                    <td>Ürün</td>
+                    <td>FİYAT</td>
+                    <td>Adet</td>
+                    <td>Toplam</td>
+                </tr>
+            </thead>
+            <tbody class="urunler">
+            </tbody>
+        </table>
+     </section>
+
+     <section id="sepet-ekle" class="section-p1">
+        <div id="kupon">
+            <h3>Kupon Uygula</h3>
+            <div>
+                <input type="text" placeholder="Kuponunuzu Girin">
+                <button class="normal">Uygula</button>
+            </div>
+        </div>
+
+        <div id="toplam">
+            <h3>Sepet Toplamı</h3>
+            <table>
+                <tr>
+                    <td>Alışveriş</td>
+                    <td>Ücretsiz</td>
+                </tr>
+                <tr>
+                    <td> <strong> Toplam</strong></td>
+                    <td class="araToplam"></td>
+                </tr>
+                <!-- <tr>
+                    <td class="toplamkey"><strong>Toplam</strong></td>
+                    <td class="toplamvalue"></td>
+                </tr> -->
+            </table>
+            <button class="normal">Devam Et ve Ödemeyi Yap!</button>
+
+        </div>
+     </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img  style="margin-top: -17%;" class="logo" src="./img/logo3.png" alt="">
+            <h4>İletişim</h4>
+            <p><strong>Adres:</strong> Yeni Mah 199.sk No:5 MUĞLA</p>
+            <p><strong>Tel:</strong>0 554 684 9807</p>
+            <p><strong>Çalışma Saatleri:</strong>Pazartesi-Cuma 10:00 - 18:00 </p>
+            <div class="sosyal">
+                <h4>Bizi Takip Edin!</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-tiktok"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>Hakkımızda</h4>
+            <a href="#">Biz Kimiz</a>
+            <a href="#">Teslimat Bilgisi</a>
+            <a href="#">Gizlilik Politikası</a>
+            <a href="#">Şartlar&Koşullar</a>
+            <a href="#">Bizimle İletişime Geçin</a>
+        </div>
+        <div class="col">
+            <h4>Hesaplarım</h4>
+            <a href="#">Giriş Yap</a>
+            <a href="#">Kartları Görüntüle</a>
+            <a href="#">Dilek&İstek</a>
+            <a href="#">Sipariş Takibi</a>
+            <a href="#">Yardım</a>
+        </div>
+        <div class="col install">
+            <h4>Uygulamayı Yükle</h4>
+            <p>App Store & Google Play</p>
+            <div class="row">
+                <img style="width: 150px;" src="./img/app-google.png" alt="">
+            </div>
+            <p>Güvenli Ödeme Yolları</p>
+                <img style="width: 150px;" src="./img/ödeme/kartlar-tek.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>©Cmc Yazılım&Medya</p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
